@@ -5,8 +5,8 @@ first_window = Tk()
 first_window.title("Calculate Your BMR")
 first_window.geometry('500x400')
 
-#bg = PhotoImage(file="C:\\Users\\byiri\\OneDrive\\Pictures\\Screenshots\\kirsty.png")
-bg = PhotoImage(file='kirsty.png')
+
+bg = PhotoImage(file='background.png')
 label1 = Label(first_window, image=bg)
 label1.place(x=0, y=0)
 first_window.resizable(0, 0)
