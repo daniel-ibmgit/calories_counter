@@ -5,7 +5,7 @@ def breakfast():
     root=Tk()
     root.title('Breakfast')
     root.geometry('400x400')
-    bg = PhotoImage(file='kirsty.png')
+    bg = PhotoImage(file='background.png')
     label1 = Label(root, image=bg)
     label1.place(x=0, y=0)
 
